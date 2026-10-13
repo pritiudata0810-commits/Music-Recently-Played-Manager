@@ -1,0 +1,13 @@
+# Compiled binaries
+*.exe
+*.o
+*.obj
+
+# Temporary and build artifacts
+active_port.txt
+.dist/
+.vscode/
+
+# Dev-C++ project temporary files
+*.layout
+*.win

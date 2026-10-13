@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="grad_song_8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11998E" />
+      <stop offset="100%" stop-color="#38EF7D" />
+    </linearGradient>
+    <radialGradient id="glow_song_8" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#11998E" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#041F1B" stop-opacity="0.95" />
+    </radialGradient>
+    <linearGradient id="disc_song_8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a42" />
+      <stop offset="50%" stop-color="#18181f" />
+      <stop offset="100%" stop-color="#24242d" />
+    </linearGradient>
+    <linearGradient id="overlay_song_8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="transparent" />
+      <stop offset="40%" stop-color="rgba(10,10,14,0.4)" />
+      <stop offset="100%" stop-color="rgba(5,5,8,0.95)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="500" height="500" fill="#041F1B" />
+  <rect width="500" height="500" fill="url(#glow_song_8)" />
+
+  <!-- Vinyl Record Graphic Layer -->
+  <g transform="translate(250, 195)">
+    <!-- Vinyl disc -->
+    <circle r="140" fill="url(#disc_song_8)" stroke="rgba(255,255,255,0.18)" stroke-width="1.5" />
+    <circle r="122" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    <circle r="105" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1" />
+    <circle r="88" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    <circle r="70" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+    
+    <!-- Center Label -->
+    <circle r="48" fill="url(#grad_song_8)" />
+    <circle r="14" fill="#041F1B" stroke="#ffffff" stroke-width="2" />
+    
+    <!-- Decorative Equalizer Waveform -->
+    <g transform="translate(-72, 100)">
+      <rect x="0" y="-12" width="5" height="24" rx="2.5" fill="#38EF7D" opacity="0.9" />
+      <rect x="12" y="-22" width="5" height="44" rx="2.5" fill="#11998E" opacity="0.9" />
+      <rect x="24" y="-36" width="5" height="72" rx="2.5" fill="#ffffff" opacity="0.95" />
+      <rect x="36" y="-18" width="5" height="36" rx="2.5" fill="#38EF7D" opacity="0.9" />
+      <rect x="48" y="-32" width="5" height="64" rx="2.5" fill="#11998E" opacity="0.9" />
+      <rect x="60" y="-45" width="5" height="90" rx="2.5" fill="#ffffff" opacity="1" />
+      <rect x="72" y="-28" width="5" height="56" rx="2.5" fill="#38EF7D" opacity="0.9" />
+      <rect x="84" y="-38" width="5" height="76" rx="2.5" fill="#11998E" opacity="0.9" />
+      <rect x="96" y="-16" width="5" height="32" rx="2.5" fill="#ffffff" opacity="0.95" />
+      <rect x="108" y="-30" width="5" height="60" rx="2.5" fill="#38EF7D" opacity="0.9" />
+      <rect x="120" y="-42" width="5" height="84" rx="2.5" fill="#11998E" opacity="0.9" />
+      <rect x="132" y="-20" width="5" height="40" rx="2.5" fill="#ffffff" opacity="0.95" />
+      <rect x="144" y="-10" width="5" height="20" rx="2.5" fill="#38EF7D" opacity="0.9" />
+    </g>
+  </g>
+
+  <!-- Bottom Gradient Overlay -->
+  <rect y="280" width="500" height="220" fill="url(#overlay_song_8)" />
+  
+  <!-- Song Info Overlay -->
+  <g transform="translate(35, 385)">
+    <!-- Album Badge -->
+    <rect x="0" y="-30" width="75.0" height="22" rx="11" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.25)" stroke-width="0.8" />
+    <text x="12" y="-15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="0.8">TBMAUJ</text>
+    
+    <!-- Title -->
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Tum Se</text>
+    
+    <!-- Artist -->
+    <text x="0" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="500" fill="rgba(255,255,255,0.85)">Raghav Chaitanya</text>
+  </g>
+  
+  <!-- Top Right Brand Icon -->
+  <g transform="translate(440, 42)">
+    <rect x="-16" y="-16" width="32" height="32" rx="9" fill="rgba(0,0,0,0.45)" stroke="rgba(255,255,255,0.18)" stroke-width="1" />
+    <path d="M-8 -5 L8 -5 M-6 0 L6 0 M-4 5 L4 5" stroke="#38EF7D" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+</svg>

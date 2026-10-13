@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" fill="#18181f" />
+  <circle cx="250" cy="220" r="110" fill="#24242d" stroke="#3a3a46" stroke-width="2" />
+  <polygon points="235,185 235,255 285,220" fill="#f5a623" />
+  <text x="250" y="375" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="0.5">STACKSOUND</text>
+  <text x="250" y="410" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#8e8e93">Music History Studio</text>
+</svg>
